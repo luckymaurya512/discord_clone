@@ -28,6 +28,8 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.18);
 
 }
 
@@ -57,8 +59,12 @@ h1{
 .details{
     margin-left: 65px;
     margin-top: 100px;
+   
 }
-
+.scroll{
+    width:60%;
+    margin: auto;
+}
 .hero-p{
     font-size: 1.5rem;
     line-height: 130%;
@@ -99,6 +105,7 @@ h1{
 
 .windows-btn:hover{
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    color: #3E5BD5;
 }
 
 .mac-btn{
@@ -121,7 +128,7 @@ h1{
 }
 
 .group-chat {
-    width: 1200px;
+    width: 1250px;
     display: flex;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -177,7 +184,7 @@ h1{
 
 .stream{
     margin-top: 200px;
-    width: 1200px;
+    width: 1250px;
     display: flex;
     background-color: #3E5BD5;
     border-radius: 50px;
@@ -195,6 +202,7 @@ h1{
 .stream-video{
     border-radius: 50px;
     width: 800px;
+    padding: 20px;
 }
 .stream-heading{
     text-transform: uppercase;
@@ -220,7 +228,7 @@ h1{
 }
 
 .vc {
-    width: 1200px;
+    width: 1250px;
     display: flex;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -268,7 +276,7 @@ h1{
 
 .chill{
     margin-top: 200px;
-    width: 1200px;
+    width: 1250px;
     display: flex;
     background-color: #3E5BD5;
     border-radius: 50px;
@@ -286,6 +294,7 @@ h1{
 .chill-video{
     border-radius: 50px;
     width: 800px;
+    padding: 20px;
 }
 .chill-heading{
     text-transform: uppercase;
@@ -311,7 +320,7 @@ h1{
 }
 
 .together {
-    width: 1200px;
+    width: 1250px;
     display: flex;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -359,7 +368,7 @@ h1{
 
 .xbox{
     margin-top: 200px;
-    width: 1200px;
+    width: 1250px;
     display: flex;
     background-color: #3E5BD5;
     border-radius: 50px;
@@ -372,6 +381,7 @@ h1{
 .xbox-video{
     border-radius: 50px;
     width: 800px;
+    padding: 20px;
 }
 .xbox-heading{
     text-transform: uppercase;
@@ -396,24 +406,29 @@ h1{
     color: white;
 }
 
-.scroll{
+.gochat{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    line-height: 10px;
+
     margin-top: 30px;
 
+}
+.scroll h2{
+    text-align: center;
+    line-height: 1.5;
 }
 
 h2{
     color: white;
     text-transform: uppercase;
     font-size: 3.125rem;
-    letter-spacing: .01em;
+
     font-family: "Abcgintonord 800", sans-serif;
+   
     font-weight: 800;
-    line-height: 0.5;
+    line-height: 1;
     /* align-items: center; */
 
 }
@@ -440,3 +455,8 @@ h2{
     margin-top: 24px;
 
 }
+
+.last-img{
+    width: 100%;
+}
+
